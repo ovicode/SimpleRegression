@@ -8,14 +8,11 @@
 
 #author: Ifeoluwa Olawore
 
-#lab9
-
-#Task
 #import relevant libraries
 import random as rd
 import math
 
-#define function to split dataset from list of data given
+# function to split dataset from list of data given
 def split_dataset(list_,ratio):
     train_ = round(len(list_) * ratio)
     train_set = []

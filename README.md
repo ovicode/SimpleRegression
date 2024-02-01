@@ -1,1 +1,1 @@
-# random.py
+Simple linear regression application using Python

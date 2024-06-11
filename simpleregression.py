@@ -85,7 +85,7 @@ def root_mean_square(testResult_list):
 
 data = []
 #open file from source
-with open ("salary.csv","r") as f: 
+with open ("motion_data.csv","r") as f: 
     for values in f.readlines():
         col1 = values.strip()
         col2 = col1.split(",")

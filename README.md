@@ -14,25 +14,31 @@ These libraries are used for data manipulation, mathematical computations, and r
 The dataset used in this script is expected to be in a CSV file named motion_data.csv. The CSV file should contain two columns representing the features (independent variables) and the target values (dependent variables). The data is loaded and processed within the script.
 
 **Functions**
+
 **Data Splitting**
 split_dataset(list_, ratio): This function splits the dataset into training and testing sets based on the specified ratio. It randomly selects data points for the training set and uses the remaining data for testing.
+
 **Statistical Calculations**
 sumList(list_): Calculates the sum of elements in a list.
 meanList(list_): Computes the mean (average) of the list elements.
 stdevList(list_): Determines the standard deviation of the list elements.
 variancelist(list_): Calculates the variance of the list elements.
 covariance(x, y): Computes the covariance between two lists, representing the relationship between the independent and dependent variables.
+
 **Regression Model**
 coefficientlist(traindata): Calculates the coefficients (intercept and slope) for the linear regression model using the training data.
 simple_linear_regression(trainlist, testlist): Predicts the output for the test data using the linear regression model built from the training data.
+
 **Model Evaluation**
 root_mean_square(testResult_list): Evaluates the model's performance by calculating the Root Mean Square Error (RMSE) between the predicted and actual values.
+
 **Usage**
 To use this script, follow these steps:
 
 Place the motion_data.csv file in the same directory as the script.
 Run the script to execute the data splitting, model training, and evaluation processes.
 The training and testing datasets will be printed in the console, followed by the model's RMSE value.
+
 **Results**
 The script will output the following:
 
